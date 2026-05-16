@@ -1,0 +1,70 @@
+.techstack {
+  padding-left: 130px;
+  margin-top: 60px;
+}
+.techstack hr {
+  color: #138781;
+  width: 400px;
+  margin: 10px auto;
+}
+
+.techstack h2 {
+  font-weight: bold;
+  color: #138781;
+}
+
+.techstack .tech-card {
+  cursor: pointer;
+  border-radius: 8px;
+  transition: all 0.3s ease-in-out;
+}
+
+.techstack .tech-icon {
+  font-size: 1.5rem;
+  margin-right: 8px;
+  color: #138781;
+}
+
+.techstack .tech-card:hover {
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 10px 20px;
+  transform: translateY(-3px);
+}
+
+.techstack .active-skill {
+  background-color: #138781;
+  color: white;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 8px 24px;
+}
+
+.techstack .active-skill .tech-icon,
+.techstack .active-skill h6 {
+  color: white !important;
+}
+
+/* Right Side Panel Styling */
+.skill-detail-box {
+  border-radius: 12px;
+  border: 2px solid #138781;
+  background: white;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.skill-logo .detail-icon {
+  color: #138781;
+}
+
+/* =============================== */
+@media (max-width: 768px) {
+  .techstack {
+    padding: 0;
+    margin: 0;
+    margin-top: 50px;
+  }
+
+  .techstack hr {
+    width: 280px;
+  }
+}
